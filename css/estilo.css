@@ -1,0 +1,148 @@
+@charset "utf-8";
+
+.geral{
+    background-image: url(../img/imgfundo2.png);
+    background-attachment: scroll;
+    background-position-x: left;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+header img{
+    width: 100%;
+}
+.introtexto{
+    padding-top: 5%;
+}
+.introtexto img{
+    width: 100%;
+}
+.introtexto a:link{
+    font-size: 0.5em;
+}
+.introtexto a:hover{
+    text-decoration: none;
+    color: black;
+}
+.introtexto span{
+    font-weight: bold;
+}
+nav ul li a:hover{
+    background-color: #000000;
+}
+.text-black {
+    color: #000000 !important;
+    text-shadow: 2px 2px 2px red !important;
+    font-size: 2em !important;
+}
+
+.text-blackespecial {
+    color: #000000 !important;
+    text-shadow: 2px 2px 2px red !important;
+    font-size: 1.388888888888889em !important;
+    font-weight: bold;
+ }
+ .artigos{
+     background-color: #fff;
+ }
+ .artigos img{
+     width: 100%;
+     padding: 10px;
+ }
+ .artigos p{
+     height: 50px;
+     font-size: 0.75em;
+ }
+ .formulario .btn{
+     background-color: #BF3F3F;
+ }
+ .promo img{
+     width: 100%;
+     margin-top: 100px;
+ }
+ .rodape{
+     height: 50px;
+ }
+
+ /*Cores*/
+ .bg-danger{
+    background-color: red !important;
+}
+.bg{
+    background-color: rgba(128,128,128,0.8) ;
+}
+.bgblack{
+    background-color: #000000;
+}
+.bgwhite{
+    background-color: #fff;
+}
+ .bgrosa{
+     background-color: rgb(182,138,148);
+ }
+ .bgamarelo{
+     background-color: rgb(247,241,33);
+ }
+ .bgdarkred{
+     background-color: rgb(168,5,13);
+ }
+ .bgdarkhaki{
+     background-color: rgb(194,187,115);
+ }
+ .bglateblue{
+     background-color: rgb(137,81,223);
+ }
+ .bgblanche{
+     background-color: rgb(246,241,203);
+ }
+/*Acessibilidade*/
+.pretobranco{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.acessibilidade{
+    height: 50px;
+    margin-left: 10px;
+}
+.acessibilidade button{
+    margin: 8px 4px;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+ @media screen and (max-width:768px) {
+     .menu{
+         width: 100%;
+         display: flex;
+     }
+     nav{
+         float: none !important;
+         text-align: center;
+
+     }
+     nav ul li{
+         display: inline !important;
+     }
+     nav ul li a:hover{
+         background-color: rgba(128,128,128,0.8);
+     }
+     .promo img{
+         display: none;
+     }
+ }
+ @media screen and (max-width:480px){
+     .artigos p{
+         text-align: center;
+         height: 60px;
+        
+     }
+ }
+ @media screen and (max-width:320px){
+     .artigos{
+         display: none;
+     }
+ }

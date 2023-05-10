@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Galeria de imagens com uma breve introdução dos animes e sua categoria.
+    </title>
+    <meta name="author"
+        content="Eduardo Leal, Erick Padilha, Hideo Yamamoto, Vinícius Lopes - erickarfewdi@hotmail.com">
+    <meta name="description"
+        content="Página sobre animes com a finalidade de apresentar informações, fatos, curiosidades e imagens sobre o mundo dos animes para o público otaku, geek e curiosos, falando tanto de animes clássicos, quanto da nova geração .">
+    <meta name="keywords" content="Anime, Clássico, Geek, Nerd, Aventura">
+    <link rel="shortcut icon" href="img/icone.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    </script>
+    <script src="js/js.js"></script>
+
+    <!-- Start WOWSlider.com HEAD section -->
+    <!-- add to the <head> of your page -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script src="engine1/jquery.js"></script>
+    <!-- End WOWSlider.com HEAD section -->
+</head>
+
+<body id="body">
+    <main class="geral container-fluid">
+        <div class="container-fluid">
+            <div class="row bg-danger pb-3">
+                <nav class="col-xl-2 col-md-2 col-sm-12 collapse show d-md-flex bg-danger pt-2 min-vh-auto">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="index.html">Introdução</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="categoria.html">Categorias</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="fato.html">Curiosidades</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="galeria.html">Galeria</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <header class="col-xl-10 col-md-10 col-sm-12">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner mt-4">
+                            <div class="carousel-item active">
+                                <img src="img/imgcar1.jpg" class="d-block w-100" alt="Goku e Vegeta Fusões">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">Dragon Ball</h5>
+                                    <p class="text-blackespecial">A saga dos Guerreiros Z para reunir as "Esféras do
+                                        Dragão" proteger a terra.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/imgcar2.png" class="d-block w-100" alt="Cavaleiros dos Zodiaco">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">Os Cavaleiros do Zodíaco</h5>
+                                    <p class="text-blackespecial">Seya e os outros cavaleiros de bronze em lutas
+                                        épicas
+                                        para salvar Athena.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/imgcar3.jpg" class="d-block w-100" alt="Yu Yu Hakusho">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">Yu Yu Hakusho</h5>
+                                    <p class="text-blackespecial">Yusuke é o "Detetive Sobrenatural", que investiga
+                                        vários casos envolvendo demônios e fantasmas no mundo humano.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/imgcar4.jpeg" class="d-block w-100" alt="Hunter x Hunter">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="text-black">Hunter x Hunter</h5>
+                                    <p class="text-blackespecial">A história de Gon Freecss, um garoto de 12 anos que
+                                        pretende se tornar um Hunter.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </header>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row bg">
+                <section class="acessibilidade text-center" aria-label="acessibilidade">
+                    <button class="bg-danger" onclick="aumentar()" title="Aumentar" aria-label="aumentar">A+</button>
+                    <button onclick="tamanhoNormal()" title="Voltar ao tamanho normal"
+                        aria-label="Voltar ao Original">A</button>
+                    <button class="text-white bgblack" onclick="pretoBranco()" title="Preto e Branco"
+                        aria-label="Deixar em Preto e Branco">PB</button>
+                    <button onclick="resetarPretoBranco()" title="Remover Preto e Branco"
+                        aria-label="Deixar em Preto e Branco">-PB</button>
+                </section>
+            </div>
+        </div>
+        <!--Galeria-->
+        <div class="container-fluid bg">
+            <section class="row mx-3">
+                <div class="col-md-12">
+                    <h1 class="text-white text-center"> Galeria </h1>
+                    <div class="row p-2">
+                        <!-- Aqui começa o card da galeria -->
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria.png" class="card-img-top" alt="Dragon Ball">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: A história de Dragon Ball começa com Son Goku, um
+                                        garoto
+                                        ingênuo e puro com cauda de macaco e uma força extraordinária. Ele mora sozinho
+                                        após a morte de seu avô adotivo em uma montanha chamada Paozu. Um dia ele
+                                        conhece Bulma, uma garota muito inteligente da cidade, que estava em busca das
+                                        sete Esferas do Dragão.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Dragon Ball </li>
+                                            <li class="list-group-item">Gênero: Shonen </li>
+                                            <li class="list-group-item">Autor: Akira Toriyama </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- Aqui termina o card da galeria -->
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria2.jpg" class="card-img-top" alt="Cavaleiros dos Zodíaco">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: Saint Seiya (nome original da série) ou Cavaleiros dos
+                                        Zodíaco (conhecida aqui no Brasil) conta a história
+                                        de um grupo de cinco jovens guerreiros cuja função era proteger Saori Kido,
+                                        reencarnação de Atena, a deusa grega da sabedoria. Para lutar, eles utilizam a
+                                        energia interior e do cosmos, e suas armaduras que são inspiradas em
+                                        constelações e na mitologia grega.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Cavaleiros dos Zodíaco (Saint Seiya)</li>
+                                            <li class="list-group-item">Gênero: Shonen</li>
+                                            <li class="list-group-item">Autor: Masami Kurumada</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria3.jpg" class="card-img-top" alt="Yu Yu Hakusho">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: Yu Yu Hakusho segue a história de Yusuke Urameshi, um
+                                        delinquente que, num ato incaracterístico de altruísmo, é atropelado por um
+                                        carro e morto em uma tentativa de salvar um garotinho, empurrando-o para fora do
+                                        caminho. ... Yusuke sucede com a ajuda de seus amigos Keiko Yukimura e Kazuma
+                                        Kuwabara.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Yu Yu Hakusho</li>
+                                            <li class="list-group-item">Gênero: Shonen</li>
+                                            <li class="list-group-item">Autor: Yoshihiro Togashi</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria4.png" class="card-img-top" alt="Evangelion">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: Neon Genesis Evangelion é uma série de ação
+                                        pós-apocalíptica que gira em torno de uma organização paramilitar chamada NERV,
+                                        criada para combater seres monstruosos e misteriosos conhecidos como Anjos,
+                                        utilizando armas de combate biomecânicas humanoides gigantes conhecidas como
+                                        Unidades Evangelion (ou EVAs).</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Evangelion</li>
+                                            <li class="list-group-item">Gênero: Mecha</li>
+                                            <li class="list-group-item">Autor: Noriko Kobayashi, Yutaka Sugiyama e
+                                                Hideaki Anno
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria5.jpg" class="card-img-top" alt="Ore Monogatari">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: Um dia, Takeo salva a pequena Rinko, ficando
+                                        imediatamente apaixonado por ela. Porém, seguindo a lógica de toda sua vida, ele
+                                        acredita que a menina gosta de seu Makoto e, então, faz os possíveis para juntas
+                                        os dois.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Ore Monogatari</li>
+                                            <li class="list-group-item">Gênero: Shoujo </li>
+                                            <li class="list-group-item">Autor: Kazune Kawahara
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria6.jpg" class="card-img-top" alt="Black Lagoon">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: A série conta a história de uma equipe de
+                                        piratas/mercenários conhecida como Companhia Lagoon, que contrabandeia cargas
+                                        nos mares do Sudeste da Ásia nos anos 1990. Sua base de operações está
+                                        localizada na cidade fictícia de Roanapur, na Tailândia, e eles transportam as
+                                        cargas no torpedeiro Black Laggon.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Black Lagoon</li>
+                                            <li class="list-group-item">Gênero: Seinen</li>
+                                            <li class="list-group-item">Autor: Rei Hiroe
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria7.jpg" class="card-img-top" alt="Natsuyuki Rendezvous">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: Um jovem chamado Hazuki vai trabalhar para a florista
+                                        por quem está apaixonado, Rokka. No entanto, tem um entrave: o espírito do
+                                        marido de Rokka, Atsushi, continua a residir no apartamento dela, e Hazuki é o
+                                        “único” que consegue vê-lo.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Natsuyuki Rendezvous</li>
+                                            <li class="list-group-item">Gênero: Josei</li>
+                                            <li class="list-group-item">Autor: Haruka Kawachi
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria8.jpg" class="card-img-top" alt="Kill la Kill">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: A história é sobre Ryuko Matoi, uma estudante que quer
+                                        vingar a morte de seu pai, e vai em busca do assassino que a coloca em conflito
+                                        violento com Satsuki Kiryuin, a presidente do conselho estudantil da Academia
+                                        Honnouji, e o império da moda de sua mãe.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Kill la Kill</li>
+                                            <li class="list-group-item">Gênero: Ecchi</li>
+                                            <li class="list-group-item">Autor: Kazuki Nakashima, Hiroyuki Imaishi,
+                                                Hiroyuki
+                                                Sawano
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria9.jpg" class="card-img-top" alt="No Game No Life">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: A série segue Sora e sua irmã mais nova Shiro, dois
+                                        hikikomori que compõem a identidade de Kuhaku, um grupo invicto de jogadores. Um
+                                        dia, eles são desafiados pelo deus dos jogos numa partida de xadrez e são
+                                        vitoriosos. Como resultado, o deus convoca-os para Disboard, uma realidade
+                                        alternativa que gira em torno de jogos. Com a intenção de manter sua reputação
+                                        como os jogadores invictos, Sora e Shiro planejam conquistar as dezesseis
+                                        espécies dominantes e usurpar o deus dos jogos.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: No Game No Life</li>
+                                            <li class="list-group-item">Gênero: Isekai</li>
+                                            <li class="list-group-item">Autor: Yū Kamiya ou Thiago Furukawa Lucas
+                                                (Brasileiro)
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria10.jpg" class="card-img-top" alt="ReLIFE">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: Essa é a história de Kaizaki Arata, um desempregado de
+                                        27 anos de idade. ... A sua vida muda depois que ele conhece Yoake Ryou, dos
+                                        Laboratórios ReLife, que lhe oferece uma droga que pode mudar sua aparência para
+                                        a de um jovem de 17 anos.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: ReLIFE</li>
+                                            <li class="list-group-item">Gênero: Slice of Life</li>
+                                            <li class="list-group-item">Autor: Yayoiso
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria11.png" class="card-img-top" alt="Doraemon">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: A série é sobre um gato robótico chamado Doraemon que
+                                        voltou dois séculos no passado para ajudar um estudante desastrado: Nobita Nobi
+                                        (野比 のび太 Nobi Nobita). A primeira aparição da série foi em dezembro de 1969,
+                                        quando foi publicada simultaneamente por 6 revistas diferentes.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Doraemon</li>
+                                            <li class="list-group-item">Gênero: Kodomomuke</li>
+                                            <li class="list-group-item">Autor: Fujiko F. Fujio
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-black col-md-6 col-sm-12 col-xl-3 mb-2 h-100 d-inline-block">
+                            <div class="card">
+                                <img src="img/imggaleria12.jpg" class="card-img-top" alt="Natsume Yuujinchou">
+                                <div class="card-body">
+                                    <p class="card-text">Sinopse: Até aonde ele pode se lembrar, Takashi Natsume foi
+                                        amaldiçoado pela capacidade de ver espíritos também chamados de Youkais ou
+                                        singularmente de Yōkai, um poder herdado de sua avó Reiko. ... O Livro dos
+                                        amigos é um item muito valorizado no mundo dos espíritos, e os espíritos
+                                        assombram Takashi constantemente.</p>
+                                    <div class="card">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Anime: Natsume Yuujinchou</li>
+                                            <li class="list-group-item">Gênero: Iyashikei</li>
+                                            <li class="list-group-item">Autor: Yuki Midorikawa
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="text-white text-justify"> Trechos e referências dos sites: </h3>
+                    <p class="text-white text-justify">
+                        <cite> <a
+                                href="https://pt.wikipedia.org/wiki/Dragon_Ball_(s%C3%A9rie)#:~:text=A%20hist%C3%B3ria%20de%20Dragon%20Ball,das%20sete%20Esferas%20do%20Drag%C3%A3o"
+                                target="_blank" style="color: white;"> Wikipédia/Dragon Ball
+                            </a>,<a href="hhttps://pt.wikipedia.org/wiki/Os_Cavaleiros_do_Zod%C3%ADaco" target="_blank">
+                                Wikipédia/ Cavaleiros dos Zodíaco
+                            </a>,<a
+                                href="https://pt.wikipedia.org/wiki/Yu_Yu_Hakusho#:~:text=Enredo,-Ver%20artigo%20principal&text=Yu%20Yu%20Hakusho%20segue%20a,o%20para%20fora%20do%20caminho.&text=Yusuke%20sucede%20com%20a%20ajuda,Keiko%20Yukimura%20e%20Kazuma%20Kuwabara"
+                                target="_blank" style="color: white;"> Wikipédia/ Yu Yu Hakusho
+                            </a>,<a
+                                href="https://pt.wikipedia.org/wiki/Neon_Genesis_Evangelion#:~:text=5%20Liga%C3%A7%C3%B5es%20externas-,Sinopse,Unidades%20Evangelion%20(ou%20EVAs"
+                                target="_blank"> Wikipédia/ Evangelion</a>,<a
+                                href="https://www.aficionados.com.br/animes-shoujo/" target="_blank"
+                                style="color: white;"> Aficionados/Ore Monogatari
+                            </a>,<a
+                                href="https://pt.wikipedia.org/wiki/Black_Lagoon#:~:text=A%20s%C3%A9rie%20conta%20a%20hist%C3%B3ria,cargas%20no%20torpedeiro%20Black%20Laggon."
+                                target="_blank"> Wikipédia/ Black Lagoon
+                            </a>,<a
+                                href="https://ladychansubs.wordpress.com/natsuyuki-rendezvous/#:~:text=Sinopse%3A,%E2%80%9D%20que%20consegue%20v%C3%AA%2Dlo"
+                                target="_blank" style="color: white;"> Lady-Chan Subs/Natsuyuki Rendezvous
+                            </a>,<a
+                                href="https://pt.wikipedia.org/wiki/Kill_la_Kill#:~:text=A%20hist%C3%B3ria%20%C3%A9%20sobre%20Ryuko,da%20moda%20de%20sua%20m%C3%A3e"
+                                target="_blank"> Wikipédia/ Kill la Kill
+                            </a>,<a href="https://pt.wikipedia.org/wiki/No_Game_No_Life" target="_blank"
+                                style="color: white;"> Wikipédia/No Game No Life
+                            </a>,<a href="https://pt.wikipedia.org/wiki/ReLIFE" target="_blank">Wikipédia/ ReLIFE
+                            </a>,<a
+                                href="https://pt.wikipedia.org/wiki/Doraemon#:~:text=A%20s%C3%A9rie%20%C3%A9%20sobre%20um,simultaneamente%20por%206%20revistas%20diferentes"
+                                target="_blank" style="color: white;"> Wikipédia/ Doraemon
+                            </a>,<a
+                                href="https://pt.wikipedia.org/wiki/Natsume_Yuujinchou#:~:text=2%20Personagens-,Sinopse,herdado%20de%20sua%20av%C3%B3%20Reiko.&text=O%20Livro%20dos%20amigos%20%C3%A9,os%20esp%C3%ADritos%20assombram%20Takashi%20constantemente"
+                                target="_blank"> Wikipédia/ Natsume Yuujinchou</a>
+                        </cite>
+                    </p>
+                </div>
+            </section>
+        </div>
+        <div class="container-fluid bg">
+        <!--Galeria-->
+	    <!--Start WOWSlider.com BODY section -->
+        <!-- add to the <body> of your page -->
+            <div id="wowslider-container1">
+                <div class="ws_images">
+                    <ul>
+                        <li><img src="data1/images/imggaleria.png" alt="imggaleria" title="imggaleria" id="wows1_0" /></li>
+                        <li><img src="data1/images/imggaleria2.jpg" alt="imggaleria2" title="imggaleria2" id="wows1_1" />
+                        </li>
+                        <li><img src="data1/images/imggaleria3.jpg" alt="imggaleria3" title="imggaleria3" id="wows1_2" />
+                        </li>
+                        <li><img src="data1/images/imggaleria4.png" alt="imggaleria4" title="imggaleria4" id="wows1_3" />
+                        </li>
+                        <li><img src="data1/images/imggaleria5.jpg" alt="imggaleria5" title="imggaleria5" id="wows1_4" />
+                        </li>
+                        <li><img src="data1/images/imggaleria6.jpg" alt="imggaleria6" title="imggaleria6" id="wows1_5" />
+                        </li>
+                        <li><img src="data1/images/imggaleria7.jpg" alt="imggaleria7" title="imggaleria7" id="wows1_6" />
+                        </li>
+                        <li><img src="data1/images/imggaleria8.jpg" alt="imggaleria8" title="imggaleria8" id="wows1_7" />
+                        </li>
+                        <li><img src="data1/images/imggaleria9.jpg" alt="imggaleria9" title="imggaleria9" id="wows1_8" />
+                        </li>
+                        <li><img src="data1/images/imggaleria10.jpg" alt="imggaleria10" title="imggaleria10" id="wows1_9" />
+                        </li>
+                        <li><img src="data1/images/imggaleria11.png" alt="imggaleria11" title="imggaleria11"
+                                id="wows1_10" /></li>
+                        <li><img src="data1/images/imggaleria12.jpg" alt="imggaleria12" title="imggaleria12"
+                                id="wows1_11" /></li>
+                        <li><img src="data1/images/hxhcar2.jpg" alt="hxhcar2" title="hxhcar2" id="wows1_12" /></li>
+                        <li><img src="data1/images/hxhcar3.jpg" alt="hxhcar3" title="hxhcar3" id="wows1_13" /></li>
+                        <li><img src="data1/images/narutocar1.jpg" alt="narutocar1" title="narutocar1" id="wows1_14" /></li>
+                        <li><img src="data1/images/narutocar3.png" alt="narutocar3" title="narutocar3" id="wows1_15" /></li>
+                        <li><a href="http://wowslider.net"><img src="data1/images/shonen.jpg" alt="image carousel"
+                                    title="shonen" id="wows1_16" /></a></li>
+                        <li><img src="data1/images/shoujo.jpg" alt="shoujo" title="shoujo" id="wows1_17" /></li>
+                    </ul>
+                </div>
+                <div class="ws_bullets">
+                    <div>
+                        <a href="#" title="imggaleria"><span><img src="data1/tooltips/imggaleria.png"
+                                    alt="imggaleria" />1</span></a>
+                        <a href="#" title="imggaleria2"><span><img src="data1/tooltips/imggaleria2.jpg"
+                                    alt="imggaleria2" />2</span></a>
+                        <a href="#" title="imggaleria3"><span><img src="data1/tooltips/imggaleria3.jpg"
+                                    alt="imggaleria3" />3</span></a>
+                        <a href="#" title="imggaleria4"><span><img src="data1/tooltips/imggaleria4.png"
+                                    alt="imggaleria4" />4</span></a>
+                        <a href="#" title="imggaleria5"><span><img src="data1/tooltips/imggaleria5.jpg"
+                                    alt="imggaleria5" />5</span></a>
+                        <a href="#" title="imggaleria6"><span><img src="data1/tooltips/imggaleria6.jpg"
+                                    alt="imggaleria6" />6</span></a>
+                        <a href="#" title="imggaleria7"><span><img src="data1/tooltips/imggaleria7.jpg"
+                                    alt="imggaleria7" />7</span></a>
+                        <a href="#" title="imggaleria8"><span><img src="data1/tooltips/imggaleria8.jpg"
+                                    alt="imggaleria8" />8</span></a>
+                        <a href="#" title="imggaleria9"><span><img src="data1/tooltips/imggaleria9.jpg"
+                                    alt="imggaleria9" />9</span></a>
+                        <a href="#" title="imggaleria10"><span><img src="data1/tooltips/imggaleria10.jpg"
+                                    alt="imggaleria10" />10</span></a>
+                        <a href="#" title="imggaleria11"><span><img src="data1/tooltips/imggaleria11.png"
+                                    alt="imggaleria11" />11</span></a>
+                        <a href="#" title="imggaleria12"><span><img src="data1/tooltips/imggaleria12.jpg"
+                                    alt="imggaleria12" />12</span></a>
+                        <a href="#" title="hxhcar2"><span><img src="data1/tooltips/hxhcar2.jpg"
+                                    alt="hxhcar2" />13</span></a>
+                        <a href="#" title="hxhcar3"><span><img src="data1/tooltips/hxhcar3.jpg"
+                                    alt="hxhcar3" />14</span></a>
+                        <a href="#" title="narutocar1"><span><img src="data1/tooltips/narutocar1.jpg"
+                                    alt="narutocar1" />15</span></a>
+                        <a href="#" title="narutocar3"><span><img src="data1/tooltips/narutocar3.png"
+                                    alt="narutocar3" />16</span></a>
+                        <a href="#" title="shonen"><span><img src="data1/tooltips/shonen.jpg" alt="shonen" />17</span></a>
+                        <a href="#" title="shoujo"><span><img src="data1/tooltips/shoujo.jpg" alt="shoujo" />18</span></a>
+                    </div>
+                </div>
+                <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">image slider</a>
+                    by WOWSlider.com v9.0</div>
+                <div class="ws_shadow"></div>
+            </div>
+            <script src="engine1/wowslider.js"></script>
+            <script src="engine1/script.js"></script>
+            <!-- End WOWSlider.com BODY section -->
+        </div>
+        
+        <div class="container-fluid  pb-4 pt-4 bg">
+            <div class="row">
+                <aside class="col-xl-6 col-md-6 col-sm-12 form-group formulario">
+                    <h1>Comente: </h1>
+                    <form method="post" name="comentarios" id="comentarios" action="#">
+                        <p>Não Serão tolerados comentarios contendo injúrias a qualquer grupo ou individuo nos
+                            comentarios!!</p>
+                        <input type="checkbox" name="responsabilidade" id="responsabilidade"> Entendi!
+                        <br>
+                        <span id="erro" style="color: red;"></span>
+                        <br>
+                        <label for="nome">Nome:</label>
+                        <input class="form-control" type="text" name="txtnome" id="nome">
+                        <br>
+                        <textarea class="form-control" cols="15" rows="4" name="mensagem" id="mensagem"></textarea>
+                        <br>
+                        <input class="btn" type="button" name="botao" value="Publicar" onclick="enviarMensagem()">
+                        <input class="btn" type="reset" name="botao" value="Apagar">
+                    </form>
+                </aside>
+                <figure class="col-xl-6 col-md-6 promo">
+                    <img src="img/img4.jpg" alt="promo">
+                </figure>
+                <div class="col-12 mt-4" id="caixamensagem" style="color: black; padding: 5%;"></div>
+            </div>
+        </div>
+        <footer class="rodape navbar-fixed-bottom text-center bg-danger">
+            <p class="text-white text-center">Copyright&copy; Copyright 2021 Todos os direitos reservados a
+                Eduardo Leal, Erick Padilha, Hideo Yamamoto e Vinícius Lopes. </p>
+        </footer>
+    </main>
+</body>
+
+</html>
